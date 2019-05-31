@@ -1,0 +1,22 @@
+Package: mixvconc
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Depends: R (>= 2.10)
+Imports: 
+    MASS,
+    stats,
+    utils
+Suggests: testthat,
+          plotrix
+Authors@R: person("Rostyslav", "Maiboroda", email = "mre@univ.kiev.ua",
+  role = c("aut", "cre"))
+Maintainer: Maiboroda <mre@univ.kiev.ua>
+Description: Estimation of descriptives, PDF and CDF of components
+    by observations from mixtures with varying 
+    concentrations.
+    Estimates can be made also by censored data.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
